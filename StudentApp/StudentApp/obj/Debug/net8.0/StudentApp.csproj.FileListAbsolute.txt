@@ -1,0 +1,14 @@
+C:\Users\sai.kutthalingam\Downloads\Changepond\Backend\C#\StudentApp\StudentApp\bin\Debug\net8.0\StudentApp.exe
+C:\Users\sai.kutthalingam\Downloads\Changepond\Backend\C#\StudentApp\StudentApp\bin\Debug\net8.0\StudentApp.deps.json
+C:\Users\sai.kutthalingam\Downloads\Changepond\Backend\C#\StudentApp\StudentApp\bin\Debug\net8.0\StudentApp.runtimeconfig.json
+C:\Users\sai.kutthalingam\Downloads\Changepond\Backend\C#\StudentApp\StudentApp\bin\Debug\net8.0\StudentApp.dll
+C:\Users\sai.kutthalingam\Downloads\Changepond\Backend\C#\StudentApp\StudentApp\bin\Debug\net8.0\StudentApp.pdb
+C:\Users\sai.kutthalingam\Downloads\Changepond\Backend\C#\StudentApp\StudentApp\obj\Debug\net8.0\StudentApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sai.kutthalingam\Downloads\Changepond\Backend\C#\StudentApp\StudentApp\obj\Debug\net8.0\StudentApp.AssemblyInfoInputs.cache
+C:\Users\sai.kutthalingam\Downloads\Changepond\Backend\C#\StudentApp\StudentApp\obj\Debug\net8.0\StudentApp.AssemblyInfo.cs
+C:\Users\sai.kutthalingam\Downloads\Changepond\Backend\C#\StudentApp\StudentApp\obj\Debug\net8.0\StudentApp.csproj.CoreCompileInputs.cache
+C:\Users\sai.kutthalingam\Downloads\Changepond\Backend\C#\StudentApp\StudentApp\obj\Debug\net8.0\StudentApp.dll
+C:\Users\sai.kutthalingam\Downloads\Changepond\Backend\C#\StudentApp\StudentApp\obj\Debug\net8.0\refint\StudentApp.dll
+C:\Users\sai.kutthalingam\Downloads\Changepond\Backend\C#\StudentApp\StudentApp\obj\Debug\net8.0\StudentApp.pdb
+C:\Users\sai.kutthalingam\Downloads\Changepond\Backend\C#\StudentApp\StudentApp\obj\Debug\net8.0\StudentApp.genruntimeconfig.cache
+C:\Users\sai.kutthalingam\Downloads\Changepond\Backend\C#\StudentApp\StudentApp\obj\Debug\net8.0\ref\StudentApp.dll

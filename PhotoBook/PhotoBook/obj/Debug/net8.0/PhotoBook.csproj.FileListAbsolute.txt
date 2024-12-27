@@ -1,0 +1,14 @@
+C:\Users\sai.kutthalingam\Downloads\Changepond\Backend\C#\PhotoBook\PhotoBook\bin\Debug\net8.0\PhotoBook.exe
+C:\Users\sai.kutthalingam\Downloads\Changepond\Backend\C#\PhotoBook\PhotoBook\bin\Debug\net8.0\PhotoBook.deps.json
+C:\Users\sai.kutthalingam\Downloads\Changepond\Backend\C#\PhotoBook\PhotoBook\bin\Debug\net8.0\PhotoBook.runtimeconfig.json
+C:\Users\sai.kutthalingam\Downloads\Changepond\Backend\C#\PhotoBook\PhotoBook\bin\Debug\net8.0\PhotoBook.dll
+C:\Users\sai.kutthalingam\Downloads\Changepond\Backend\C#\PhotoBook\PhotoBook\bin\Debug\net8.0\PhotoBook.pdb
+C:\Users\sai.kutthalingam\Downloads\Changepond\Backend\C#\PhotoBook\PhotoBook\obj\Debug\net8.0\PhotoBook.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sai.kutthalingam\Downloads\Changepond\Backend\C#\PhotoBook\PhotoBook\obj\Debug\net8.0\PhotoBook.AssemblyInfoInputs.cache
+C:\Users\sai.kutthalingam\Downloads\Changepond\Backend\C#\PhotoBook\PhotoBook\obj\Debug\net8.0\PhotoBook.AssemblyInfo.cs
+C:\Users\sai.kutthalingam\Downloads\Changepond\Backend\C#\PhotoBook\PhotoBook\obj\Debug\net8.0\PhotoBook.csproj.CoreCompileInputs.cache
+C:\Users\sai.kutthalingam\Downloads\Changepond\Backend\C#\PhotoBook\PhotoBook\obj\Debug\net8.0\PhotoBook.dll
+C:\Users\sai.kutthalingam\Downloads\Changepond\Backend\C#\PhotoBook\PhotoBook\obj\Debug\net8.0\refint\PhotoBook.dll
+C:\Users\sai.kutthalingam\Downloads\Changepond\Backend\C#\PhotoBook\PhotoBook\obj\Debug\net8.0\PhotoBook.pdb
+C:\Users\sai.kutthalingam\Downloads\Changepond\Backend\C#\PhotoBook\PhotoBook\obj\Debug\net8.0\PhotoBook.genruntimeconfig.cache
+C:\Users\sai.kutthalingam\Downloads\Changepond\Backend\C#\PhotoBook\PhotoBook\obj\Debug\net8.0\ref\PhotoBook.dll
