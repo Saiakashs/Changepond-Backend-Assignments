@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sai.kutthalingam\\Downloads\\Changepond\\Backend\\C#\\FileInfo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CD06FB75-12C2-4F49-8288-9F1F8F0FB843}|FileInfo\\FileInfo.csproj|c:\\users\\sai.kutthalingam\\downloads\\changepond\\backend\\c#\\fileinfo\\fileinfo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD06FB75-12C2-4F49-8288-9F1F8F0FB843}|FileInfo\\FileInfo.csproj|solutionrelative:fileinfo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD06FB75-12C2-4F49-8288-9F1F8F0FB843}|FileInfo\\SystemIONamespace.csproj|c:\\users\\sai.kutthalingam\\downloads\\changepond\\backend\\c#\\fileinfo\\fileinfo\\streamreaderclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD06FB75-12C2-4F49-8288-9F1F8F0FB843}|FileInfo\\SystemIONamespace.csproj|solutionrelative:fileinfo\\streamreaderclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD06FB75-12C2-4F49-8288-9F1F8F0FB843}|FileInfo\\SystemIONamespace.csproj|c:\\users\\sai.kutthalingam\\downloads\\changepond\\backend\\c#\\fileinfo\\fileinfo\\streamwriterclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD06FB75-12C2-4F49-8288-9F1F8F0FB843}|FileInfo\\SystemIONamespace.csproj|solutionrelative:fileinfo\\streamwriterclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD06FB75-12C2-4F49-8288-9F1F8F0FB843}|FileInfo\\SystemIONamespace.csproj|c:\\users\\sai.kutthalingam\\downloads\\changepond\\backend\\c#\\fileinfo\\fileinfo\\directoryinfoclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD06FB75-12C2-4F49-8288-9F1F8F0FB843}|FileInfo\\SystemIONamespace.csproj|solutionrelative:fileinfo\\directoryinfoclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD06FB75-12C2-4F49-8288-9F1F8F0FB843}|FileInfo\\SystemIONamespace.csproj|c:\\users\\sai.kutthalingam\\downloads\\changepond\\backend\\c#\\fileinfo\\fileinfo\\fileinfoclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD06FB75-12C2-4F49-8288-9F1F8F0FB843}|FileInfo\\SystemIONamespace.csproj|solutionrelative:fileinfo\\fileinfoclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD06FB75-12C2-4F49-8288-9F1F8F0FB843}|FileInfo\\SystemIONamespace.csproj|c:\\users\\sai.kutthalingam\\downloads\\changepond\\backend\\c#\\fileinfo\\fileinfo\\fileclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD06FB75-12C2-4F49-8288-9F1F8F0FB843}|FileInfo\\SystemIONamespace.csproj|solutionrelative:fileinfo\\fileclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD06FB75-12C2-4F49-8288-9F1F8F0FB843}|FileInfo\\SystemIONamespace.csproj|c:\\users\\sai.kutthalingam\\downloads\\changepond\\backend\\c#\\fileinfo\\fileinfo\\directoryclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD06FB75-12C2-4F49-8288-9F1F8F0FB843}|FileInfo\\SystemIONamespace.csproj|solutionrelative:fileinfo\\directoryclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StreamWriterClass.cs",
+              "DocumentMoniker": "C:\\Users\\sai.kutthalingam\\Downloads\\Changepond\\Backend\\C#\\FileInfo\\FileInfo\\StreamWriterClass.cs",
+              "RelativeDocumentMoniker": "FileInfo\\StreamWriterClass.cs",
+              "ToolTip": "C:\\Users\\sai.kutthalingam\\Downloads\\Changepond\\Backend\\C#\\FileInfo\\FileInfo\\StreamWriterClass.cs",
+              "RelativeToolTip": "FileInfo\\StreamWriterClass.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAABvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T09:56:20.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FileClass.cs",
+              "DocumentMoniker": "C:\\Users\\sai.kutthalingam\\Downloads\\Changepond\\Backend\\C#\\FileInfo\\FileInfo\\FileClass.cs",
+              "RelativeDocumentMoniker": "FileInfo\\FileClass.cs",
+              "ToolTip": "C:\\Users\\sai.kutthalingam\\Downloads\\Changepond\\Backend\\C#\\FileInfo\\FileInfo\\FileClass.cs",
+              "RelativeToolTip": "FileInfo\\FileClass.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAACTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T09:44:55.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DirectoryClass.cs",
+              "DocumentMoniker": "C:\\Users\\sai.kutthalingam\\Downloads\\Changepond\\Backend\\C#\\FileInfo\\FileInfo\\DirectoryClass.cs",
+              "RelativeDocumentMoniker": "FileInfo\\DirectoryClass.cs",
+              "ToolTip": "C:\\Users\\sai.kutthalingam\\Downloads\\Changepond\\Backend\\C#\\FileInfo\\FileInfo\\DirectoryClass.cs",
+              "RelativeToolTip": "FileInfo\\DirectoryClass.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T09:19:18.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DirectoryInfoClass.cs",
+              "DocumentMoniker": "C:\\Users\\sai.kutthalingam\\Downloads\\Changepond\\Backend\\C#\\FileInfo\\FileInfo\\DirectoryInfoClass.cs",
+              "RelativeDocumentMoniker": "FileInfo\\DirectoryInfoClass.cs",
+              "ToolTip": "C:\\Users\\sai.kutthalingam\\Downloads\\Changepond\\Backend\\C#\\FileInfo\\FileInfo\\DirectoryInfoClass.cs",
+              "RelativeToolTip": "FileInfo\\DirectoryInfoClass.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAiwBAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T09:10:38.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FileInfoClass.cs",
+              "DocumentMoniker": "C:\\Users\\sai.kutthalingam\\Downloads\\Changepond\\Backend\\C#\\FileInfo\\FileInfo\\FileInfoClass.cs",
+              "RelativeDocumentMoniker": "FileInfo\\FileInfoClass.cs",
+              "ToolTip": "C:\\Users\\sai.kutthalingam\\Downloads\\Changepond\\Backend\\C#\\FileInfo\\FileInfo\\FileInfoClass.cs",
+              "RelativeToolTip": "FileInfo\\FileInfoClass.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T09:05:59.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sai.kutthalingam\\Downloads\\Changepond\\Backend\\C#\\FileInfo\\FileInfo\\Program.cs",
+              "RelativeDocumentMoniker": "FileInfo\\Program.cs",
+              "ToolTip": "C:\\Users\\sai.kutthalingam\\Downloads\\Changepond\\Backend\\C#\\FileInfo\\FileInfo\\Program.cs",
+              "RelativeToolTip": "FileInfo\\Program.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAACwAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T08:56:22.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StreamReaderClass.cs",
+              "DocumentMoniker": "C:\\Users\\sai.kutthalingam\\Downloads\\Changepond\\Backend\\C#\\FileInfo\\FileInfo\\StreamReaderClass.cs",
+              "RelativeDocumentMoniker": "FileInfo\\StreamReaderClass.cs",
+              "ToolTip": "C:\\Users\\sai.kutthalingam\\Downloads\\Changepond\\Backend\\C#\\FileInfo\\FileInfo\\StreamReaderClass.cs",
+              "RelativeToolTip": "FileInfo\\StreamReaderClass.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAiwBIAAAB0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T10:06:07.34Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

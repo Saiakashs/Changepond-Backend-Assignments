@@ -1,0 +1,15 @@
+C:\Users\sai.kutthalingam\Downloads\Changepond\Backend\C#\FileInfo\FileInfo\bin\Debug\net8.0\FileInfoClass.exe
+C:\Users\sai.kutthalingam\Downloads\Changepond\Backend\C#\FileInfo\FileInfo\bin\Debug\net8.0\FileInfoClass.deps.json
+C:\Users\sai.kutthalingam\Downloads\Changepond\Backend\C#\FileInfo\FileInfo\bin\Debug\net8.0\FileInfoClass.runtimeconfig.json
+C:\Users\sai.kutthalingam\Downloads\Changepond\Backend\C#\FileInfo\FileInfo\bin\Debug\net8.0\FileInfoClass.dll
+C:\Users\sai.kutthalingam\Downloads\Changepond\Backend\C#\FileInfo\FileInfo\bin\Debug\net8.0\FileInfoClass.pdb
+C:\Users\sai.kutthalingam\Downloads\Changepond\Backend\C#\FileInfo\FileInfo\obj\Debug\net8.0\FileInfoClass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sai.kutthalingam\Downloads\Changepond\Backend\C#\FileInfo\FileInfo\obj\Debug\net8.0\FileInfoClass.AssemblyInfoInputs.cache
+C:\Users\sai.kutthalingam\Downloads\Changepond\Backend\C#\FileInfo\FileInfo\obj\Debug\net8.0\FileInfoClass.AssemblyInfo.cs
+C:\Users\sai.kutthalingam\Downloads\Changepond\Backend\C#\FileInfo\FileInfo\obj\Debug\net8.0\FileInfoClass.csproj.CoreCompileInputs.cache
+C:\Users\sai.kutthalingam\Downloads\Changepond\Backend\C#\FileInfo\FileInfo\obj\Debug\net8.0\FileInfoClass.sourcelink.json
+C:\Users\sai.kutthalingam\Downloads\Changepond\Backend\C#\FileInfo\FileInfo\obj\Debug\net8.0\FileInfoClass.dll
+C:\Users\sai.kutthalingam\Downloads\Changepond\Backend\C#\FileInfo\FileInfo\obj\Debug\net8.0\refint\FileInfoClass.dll
+C:\Users\sai.kutthalingam\Downloads\Changepond\Backend\C#\FileInfo\FileInfo\obj\Debug\net8.0\FileInfoClass.pdb
+C:\Users\sai.kutthalingam\Downloads\Changepond\Backend\C#\FileInfo\FileInfo\obj\Debug\net8.0\FileInfoClass.genruntimeconfig.cache
+C:\Users\sai.kutthalingam\Downloads\Changepond\Backend\C#\FileInfo\FileInfo\obj\Debug\net8.0\ref\FileInfoClass.dll

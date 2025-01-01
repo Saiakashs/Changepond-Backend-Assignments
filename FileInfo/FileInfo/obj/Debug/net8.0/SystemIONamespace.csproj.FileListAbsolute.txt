@@ -1,0 +1,15 @@
+C:\Users\sai.kutthalingam\Downloads\Changepond\Backend\C#\FileInfo\FileInfo\bin\Debug\net8.0\SystemIONamespace.exe
+C:\Users\sai.kutthalingam\Downloads\Changepond\Backend\C#\FileInfo\FileInfo\bin\Debug\net8.0\SystemIONamespace.deps.json
+C:\Users\sai.kutthalingam\Downloads\Changepond\Backend\C#\FileInfo\FileInfo\bin\Debug\net8.0\SystemIONamespace.runtimeconfig.json
+C:\Users\sai.kutthalingam\Downloads\Changepond\Backend\C#\FileInfo\FileInfo\bin\Debug\net8.0\SystemIONamespace.dll
+C:\Users\sai.kutthalingam\Downloads\Changepond\Backend\C#\FileInfo\FileInfo\bin\Debug\net8.0\SystemIONamespace.pdb
+C:\Users\sai.kutthalingam\Downloads\Changepond\Backend\C#\FileInfo\FileInfo\obj\Debug\net8.0\SystemIONamespace.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sai.kutthalingam\Downloads\Changepond\Backend\C#\FileInfo\FileInfo\obj\Debug\net8.0\SystemIONamespace.AssemblyInfoInputs.cache
+C:\Users\sai.kutthalingam\Downloads\Changepond\Backend\C#\FileInfo\FileInfo\obj\Debug\net8.0\SystemIONamespace.AssemblyInfo.cs
+C:\Users\sai.kutthalingam\Downloads\Changepond\Backend\C#\FileInfo\FileInfo\obj\Debug\net8.0\SystemIONamespace.csproj.CoreCompileInputs.cache
+C:\Users\sai.kutthalingam\Downloads\Changepond\Backend\C#\FileInfo\FileInfo\obj\Debug\net8.0\SystemIONamespace.sourcelink.json
+C:\Users\sai.kutthalingam\Downloads\Changepond\Backend\C#\FileInfo\FileInfo\obj\Debug\net8.0\SystemIONamespace.dll
+C:\Users\sai.kutthalingam\Downloads\Changepond\Backend\C#\FileInfo\FileInfo\obj\Debug\net8.0\refint\SystemIONamespace.dll
+C:\Users\sai.kutthalingam\Downloads\Changepond\Backend\C#\FileInfo\FileInfo\obj\Debug\net8.0\SystemIONamespace.pdb
+C:\Users\sai.kutthalingam\Downloads\Changepond\Backend\C#\FileInfo\FileInfo\obj\Debug\net8.0\SystemIONamespace.genruntimeconfig.cache
+C:\Users\sai.kutthalingam\Downloads\Changepond\Backend\C#\FileInfo\FileInfo\obj\Debug\net8.0\ref\SystemIONamespace.dll
