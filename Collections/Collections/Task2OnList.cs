@@ -169,16 +169,13 @@ namespace Collections
 
                     if (trigger2)
                     {
-                    
-                        //for (int i = 0; i < employee.Count; i++)
-                        //{
+
                             string designation = employee[index].Designation;  
                             employee.RemoveAt(index);                     
                             Employee newEmp = new Employee(index + 1, empName2, designation);
                             employee.Insert(index, newEmp);
                             fs.displayMessage($"The employee {empName} is replaced with {empName2} successfully");
 
-                        //}
                     }
 
                     else
