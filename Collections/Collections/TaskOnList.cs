@@ -11,7 +11,7 @@ namespace Collections
 {
     public class TaskOnList
     {
-        List<string> fruits = new List<string>() { "Apple", "Banana", "orange" };
+        List<string> fruits = new List<string>() { "apple", "banana", "orange" };
 
         FunctionServices fs = new FunctionServices();
         public void Task1()
@@ -212,13 +212,13 @@ namespace Collections
                         //Console.WriteLine();
                 }
 
-                    else
-                    {
-                        fruits.Remove(fruititem1);
-                        fruits.Insert(index, fruititem2);
-                        fs.displayMessage($"The fruit {fruititem1} is replaced with {fruititem2} successfully");
-                        //Console.WriteLine($"The fruit {fruititem1} is replaced with {fruititem2} successfully");
-                    }
+                else
+                {
+                    fruits.Remove(fruititem1);
+                    fruits.Insert(index, fruititem2);
+                    fs.displayMessage($"The fruit {fruititem1} is replaced with {fruititem2} successfully");
+                    //Console.WriteLine($"The fruit {fruititem1} is replaced with {fruititem2} successfully");
+                }
                 
             }
             else

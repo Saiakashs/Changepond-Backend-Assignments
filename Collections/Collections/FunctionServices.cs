@@ -32,7 +32,8 @@ namespace Collections
         {
             foreach (var item in items)
             {
-                Console.WriteLine(item);
+                Console.WriteLine($"Employee ID:{item}");
+               
             }
         }
 
@@ -47,6 +48,23 @@ namespace Collections
         }
 
         */
+
+        public void displayListObjectItem(List<Employee> items)
+        {
+            if (items.Count==0){
+                Console.WriteLine("Please add any employee list before display it");
+            }
+            else
+            {
+                foreach(var item in items)
+                {
+                    Console.WriteLine(item.ID);
+                    Console.WriteLine(item.Name);
+                    Console.WriteLine(item.Designation);
+                }
+            }
+            
+        }
 
         public string TitleCaseString(string item)
         {
