@@ -22,7 +22,7 @@ namespace Delegates
                 }
                 else
                 {
-                    list.Add(name);
+                    list.spAdd(name);
                     Console.WriteLine($"Hi {name}, the organization welcomes you");
                 }
 
