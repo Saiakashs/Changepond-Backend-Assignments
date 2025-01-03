@@ -6,13 +6,33 @@ namespace MyDemoApp.Controllers
 {
     public class HomeController : Controller
     {
+      
         private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        private CompanyContext context;
+
+        public HomeController(ILogger<HomeController> logger,CompanyContext cc)
         {
             _logger = logger;
+            context = cc;
         }
 
+        public string CreateInformation()
+        {
+
+            var info = new Information() {
+                Name="Hematite InfoTech",
+                License="27AAECH1657D1ZS",
+                Revenue=100000,
+                Established=Convert.ToDateTime("2017/04/28")
+            };
+
+            context.Entry(info).State = Microsoft.EntityFrameworkCore.EntityState.Added;
+            context.SaveChanges();
+
+            return "data created successfully";
+
+        }
         public IActionResult Index()
         {
             return View();

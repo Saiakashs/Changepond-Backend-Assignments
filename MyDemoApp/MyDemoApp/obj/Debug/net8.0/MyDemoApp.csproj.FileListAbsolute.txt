@@ -170,3 +170,4 @@ C:\Users\sai.kutthalingam\Downloads\Changepond\Backend\C#\MyDemoApp\MyDemoApp\bi
 C:\Users\sai.kutthalingam\Downloads\Changepond\Backend\C#\MyDemoApp\MyDemoApp\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\sai.kutthalingam\Downloads\Changepond\Backend\C#\MyDemoApp\MyDemoApp\obj\Debug\net8.0\MyDemoApp.csproj.AssemblyReference.cache
 C:\Users\sai.kutthalingam\Downloads\Changepond\Backend\C#\MyDemoApp\MyDemoApp\obj\Debug\net8.0\MyDemoApp.csproj.Up2Date
+C:\Users\sai.kutthalingam\Downloads\Changepond\Backend\C#\MyDemoApp\MyDemoApp\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
