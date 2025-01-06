@@ -14,11 +14,11 @@
 
     <div class="form-group">
         <label asp-for="Department"></label>
-        <select asp-for="DepartmentId" asp-items="ViewBag.Department" class="from-control"></select>
+        <select asp-for="DepartmentId" asp-items="ViewBag.Department" class="from-control" style="margin:10px 0px"></select>
     </div>
     <div class="form-group">
         <label asp-for="Designation"></label>
-        <select asp-for="Designation" class="from-control"></select>
+        <input asp-for="Designation" class="from-control" />
     </div>
     <button type="submit" class="btn btn-primary" style="margin-top:10px">Update</button>
 </form>

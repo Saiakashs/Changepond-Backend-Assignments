@@ -36,7 +36,12 @@ namespace MyDemoApp.Controllers
 
         public async Task<IActionResult> Update(int id)
         {
-            Employee emp = await context.Employee.Where(e => e.Id == id).FirstOrDefaultAsync();
+
+            List<SelectListItem> dept = new List<SelectListItem>();
+            dept = context.Department.Select(x => new SelectListItem { Text = x.Name, Value = x.Id.ToString() }).ToList();
+            ViewBag.Department = dept;
+
+            Employee emp = await context.Employee.Where(e => e.Id==id).FirstOrDefaultAsync();
             return View(emp);
         }
 

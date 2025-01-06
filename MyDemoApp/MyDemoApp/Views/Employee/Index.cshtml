@@ -3,7 +3,7 @@
 }
 
 @model IEnumerable<Employee>
-<h1 class="bg-info text-white">Departments List</h1>
+<h1 class="bg-info text-white">Employees List</h1>
 <a asp-action="Create" class="btn btn-secondary" style="margin-bottom:10px">Create Employee</a>
 <table class="table table-sm table-bordered">
     <tr>
@@ -15,7 +15,7 @@
         <th>Delete</th>
     </tr>
     @foreach (Employee emp in Model)
-    {
+    {                                                    
         <tr>
             <td>@emp.Id</td>
             <td>@emp.Name</td>
