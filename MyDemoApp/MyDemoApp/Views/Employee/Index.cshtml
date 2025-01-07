@@ -2,33 +2,58 @@
     ViewData["Title"] = "Employee List";
 }
 
-@model IEnumerable<Employee>
-<h1 class="bg-info text-white">Employees List</h1>
-<a asp-action="Create" class="btn btn-secondary" style="margin-bottom:10px">Create Employee</a>
-<table class="table table-sm table-bordered">
-    <tr>
-        <th>Id</th>
-        <th>Name</th>
-        <th>Designation</th>
-        <th>Department Name</th>
-        <th>Update</th>
-        <th>Delete</th>
-    </tr>
-    @foreach (Employee emp in Model)
-    {                                                    
-        <tr>
-            <td>@emp.Id</td>
-            <td>@emp.Name</td>
-            <td>@emp.Designation</td>
-            <td>@emp.Department.Name</td>
-            <td>
-                <a class="btn btn-sm btn-primary" asp-action="Update" asp-route-id="@emp.DepartmentId">Update</a>
-            </td>
-            <td>
-                <form asp-action="Delete" asp-route-id="@emp.DepartmentId" method="post">
-                    <button type="submit" class="btn btn-sm btn-danger">Delete</button>
-                </form>
-            </td>
-        </tr>
+@* @model IEnumerable<Employee> 
+<h1 class="bg-info text-white">Employees List</h1> 
+<a asp-action="Create" class="btn btn-secondary" style="margin-bottom:10px">Create Employee</a> 
+
+<table class="table table-sm table-bordered"> 
+    <tr> 
+         <th>Id</th> 
+         <th>Name</th> 
+        <th>Designation</th> 
+         <th>Department Name</th> 
+        <th>Update</th> 
+        <th>Delete</th> 
+    </tr> 
+    @foreach (Employee emp in Model) 
+     {                                                     
+         <tr> 
+             <td>@emp.Id</td> 
+             <td>@emp.Name</td> 
+             <td>@emp.Designation</td> 
+            <td>@emp.Department.Name</td> 
+             <td> 
+                 <a class="btn btn-sm btn-primary" asp-action="Update" asp-route-id="@emp.Id">Update</a> 
+            </td> 
+            <td> 
+                <form asp-action="Delete" asp-route-id="@emp.DepartmentId" method="post"> 
+                    <button type="submit" class="btn btn-sm btn-danger">Delete</button> 
+                </form> 
+            </td> 
+        </tr> 
+     }
+     </table> *@
+
+@model string
+
+<h2>Login Form</h2>
+@{
+    if (Model != null)
+    {
+        <h3 class="p-3 mb-2 bg-success text-white">@Model</h3>
     }
-</table>
+}
+
+<form method="post">
+    <div class="form-group">
+        <label>Id:</label>
+        <input class="form-control" name="id" />
+    </div>
+    <div class="form-group">
+        <label>Name:</label>
+        <input class="form-control" name="name" />
+    </div>
+    <div class="m-2">
+        <button type="submit" class="btn btn-outline-primary">Submit</button>
+    </div>
+</form>

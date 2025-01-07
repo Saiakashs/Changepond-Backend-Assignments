@@ -2,6 +2,10 @@
 @{
     ViewData["Title"]="Create Department";
 }
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor;
+<h2>
+    Current User: @HttpContextAccessor.HttpContext.Session.GetString("CurrentUser")
+</h2>
 
 @model Department
 

@@ -14,10 +14,24 @@ namespace MyDemoApp.Controllers
             context = cc;
         }
 
+        /*
+         
         public IActionResult Index()
         {
             return View(context.Department.AsNoTracking());
         }
+
+        */
+
+        public IActionResult Index()
+        {
+            ViewBag.CurrentDateTime = DateTime.Now;
+            ViewBag.CurrentYear = DateTime.Now.Year;
+            ViewBag.CurrentUser = "Akash";
+
+            return View(context.Department.AsNoTracking());
+        }
+
         public IActionResult Create()
         {
             return View();
