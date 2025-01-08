@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "uMGe7o5aRSI=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\sai.kutthalingam\\Downloads\\Changepond\\Backend\\C#\\WebApiDemo\\WebApiDemo\\WebApiDemo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sai.kutthalingam\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\9.0.0\\microsoft.aspnetcore.jsonpatch.9.0.0.nupkg.sha512",
+    "C:\\Users\\sai.kutthalingam\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\sai.kutthalingam\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
