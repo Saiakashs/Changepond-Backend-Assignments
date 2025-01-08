@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sai.kutthalingam\\Downloads\\Changepond\\Backend\\C#\\MyDemoApp\\MyDemoApp\\MyDemoApp.csproj": {}
+    "C:\\Users\\91984\\Desktop\\Backend\\MyDemoApp\\MyDemoApp\\MyDemoApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sai.kutthalingam\\Downloads\\Changepond\\Backend\\C#\\MyDemoApp\\MyDemoApp\\MyDemoApp.csproj": {
+    "C:\\Users\\91984\\Desktop\\Backend\\MyDemoApp\\MyDemoApp\\MyDemoApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sai.kutthalingam\\Downloads\\Changepond\\Backend\\C#\\MyDemoApp\\MyDemoApp\\MyDemoApp.csproj",
+        "projectUniqueName": "C:\\Users\\91984\\Desktop\\Backend\\MyDemoApp\\MyDemoApp\\MyDemoApp.csproj",
         "projectName": "MyDemoApp",
-        "projectPath": "C:\\Users\\sai.kutthalingam\\Downloads\\Changepond\\Backend\\C#\\MyDemoApp\\MyDemoApp\\MyDemoApp.csproj",
-        "packagesPath": "C:\\Users\\sai.kutthalingam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sai.kutthalingam\\Downloads\\Changepond\\Backend\\C#\\MyDemoApp\\MyDemoApp\\obj\\",
+        "projectPath": "C:\\Users\\91984\\Desktop\\Backend\\MyDemoApp\\MyDemoApp\\MyDemoApp.csproj",
+        "packagesPath": "C:\\Users\\91984\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\91984\\Desktop\\Backend\\MyDemoApp\\MyDemoApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\sai.kutthalingam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\91984\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
