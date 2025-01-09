@@ -1,0 +1,16 @@
+{
+  "Reservation": [
+    {
+      "id": "1004",
+      "name": "Bejesh",
+      "startLocation": "Chennai",
+      "endLocation": "Pune"
+    },
+    {
+      "id": "1005",
+      "name": "Anbu",
+      "startLocation": "Chennai",
+      "endLocation": "Delhi"
+    }
+  ]
+}
