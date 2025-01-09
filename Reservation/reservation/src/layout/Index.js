@@ -1,73 +1,80 @@
-import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
-import { GET,DELETE} from '../service/HTTP.Service';  
+import React, { useEffect, useState } from 'react'
+import axios from 'axios';
+import { Link, Outlet } from 'react-router-dom';
 
-const Index = () => {
-  const [reservation, setReservation] = useState([]);
 
-  useEffect(() => {
-    GET('/api/reservation') 
-      .then((response) => {
-        setReservation(response); // Set state with fetched data
-      })
-      .catch((error) => console.error(error));
-  }, []);
-  
-  const deleteReservation = (id) => {
-    DELETE(`/api/reservation/${id}`)
-      .then(() => {
-        // Remove the deleted reservation from the state
-        setReservation(reservation.filter((res) => res.Id !== id));
-      })
-      .catch((error) => console.error(error));
-  };
-  
-  const addReservation = (newRes) => {
-    // Check if the reservation already exists in the state
-    const exists = reservation.some((r) => 
-      r.Name === newRes.Name && r.StartLocation === newRes.StartLocation && r.EndLocation === newRes.EndLocation
-    );
-  
-    if (!exists) {
-      setReservation([...reservation, newRes]); // Add new reservation if it doesn't already exist
+
+function Index() {
+    const [reservations, setReservations] = useState([]);
+
+
+    useEffect(() => {
+        getData();
+    }, [])
+
+    const getData = () => {
+        axios.get("http://localhost:5048/api/Reservation").then((res) => {
+            setReservations(res.data);
+        }).catch((error) => { })
     }
-  };
-  
 
-  return (
-    <div>
-      <h2>All Reservations</h2>
-      <Link to="/Create" className="btn btn-sm btn-primary">Add Reservation</Link>
-      <table className="table table-sm table-striped table-bordered m-2">
-        <thead>
-          <tr>
-            <th>ID</th>
-            <th>Name</th>
-            <th>Start Location</th>
-            <th>End Location</th>
-            <th>Update</th>
-            <th>Delete</th>
-          </tr>
-        </thead>
-        <tbody>
-          {reservation.map((r) => (
-            <tr key={r.Id}>
-              <td>{r.Id}</td>
-              <td>{r.Name}</td>
-              <td>{r.StartLocation}</td>
-              <td>{r.EndLocation}</td>
-              <td>
-                <Link to={`/Update/${r.Id}`} className="btn btn-sm btn-secondary">Edit</Link>
-              </td>
-              <td>
-                <button onClick={() => deleteReservation(r.Id)} className="btn btn-sm btn-danger">Delete</button>
-              </td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
-    </div>
-  );
-};
+    const deleteFun = (id) => {
+        // window.alert(`Delete button clicked ${id}`);
+        let conf = window.confirm("Do you want to Delete it");
+        conf && axios.delete(`http://localhost:5048/api/Reservation/${id}`).then(() => {
+            getData();
+        }).catch((error) => { });
+    }
+
+    return (
+        <div>
+            <h2>Reservations</h2>
+            <Link to="addreservation" className='btn btn-primary mt-3 mb-3'>
+                Add
+            </Link>
+
+            <table className='table table-hover table-bordered table-striped'>
+
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Start Location</th>
+                        <th>End Location</th>
+                        <th>Update</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    {
+                        reservations.map((val, index) => {
+                            return <tr key={val.id}>
+                                <td>{val.id}</td>
+                                <td>{val.name}</td>
+                                <td>{val.startLocation}</td>
+                                <td>{val.endLocation}</td>
+                                <td>
+                                    <Link to={`editreservation/${val.id}`} className='btn btn-outline-success' >
+                                        Edit
+                                    </Link>
+                                </td>
+                                <td>
+
+                                    <button type='button' onClick={() => { deleteFun(val.id) }} className='btn btn-outline-danger'>
+                                        Delete
+                                    </button>
+                                </td>
+                            </tr>
+                        })
+                    }
+
+                </tbody>
+            </table>
+        </div>
+
+        
+    )
+}
 
 export default Index;

@@ -1,76 +1,69 @@
-import React, { useState } from 'react';
-import { POST } from '../service/HTTP.Service';  
+import axios from 'axios';
+import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 
-const Create = () => {
-  const navigate=useNavigate();
-  const [reservation, setReservation] = useState({
-    Name: '',
-    StartLocation: '',
-    EndLocation: '',
-  });
+function Create() {
+    const nav = useNavigate();
 
-  const handleChange = (e) => {
-    setReservation({
-      ...reservation,[e.target.name]: e.target.value,
-    });
-  };
+    const [reservation, setreservation] = useState({
+            id:"",
+            name:"",
+            startLocation:"",
+            endLocation:"",
+        })
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    POST('/api/reservation', reservation)
-      .then((createdReservation) => {
-        // Check if the created reservation already exists in the list
-        const exists = reservation.some((r) => 
-          r.Name === createdReservation.Name && 
-          r.StartLocation === createdReservation.StartLocation && 
-          r.EndLocation === createdReservation.EndLocation
-        );
+    const handleChange =(event)=> {
+        const {name, type, value} = event.target;
+        setreservation({...reservation, [name]:value});
+    }
+
+    const submitData = (event) => {
+        event.preventDefault();
         
-        if (!exists) {
-          setReservation([...reservation, createdReservation]); // Add reservation if it doesn't already exist
-        }
-        navigate('/'); // Navigate back to the list
-      })
-      .catch((error) => console.error(error));
-  };
-  
+        axios.post("http://localhost:5048/api/Reservation", reservation).then(()=>{
+            window.alert("Added Successfully");
+            nav("/");
+        }).catch((error)=>{});
+    }
 
-  return (
-    <div>
-      <h2>Add a Reservation</h2>
-      <form onSubmit={handleSubmit}>
-        <div className="form-group">
-          <label>Name:</label>
-          <input
-            className="form-control"
-            name="Name"
-            value={reservation.Name}
-            onChange={handleChange}
-          />
+
+
+    return (
+        <div>
+            {/* <h2>This is ProductAddComp</h2> */}
+
+            <div className='row'>
+                <div className='col-sm-3'></div>
+                <div className='col-sm-6'>
+                    <form onSubmit={submitData}>
+                    <div className='p-2'>
+                            <label>Id </label>
+                            <input type="text" className="form-control" name='id' value={reservation.id} onChange={handleChange}></input>
+                        </div>
+
+                        <div className='p-2'>
+                            <label>Name  </label>
+                            <input type="text" className="form-control" name="name" value={reservation.name} onChange={handleChange}></input>
+                        </div>
+
+                        <div className='p-2'>
+                            <label>Start Location </label>
+                            <input type="text" className="form-control" name='startLocation' value={reservation.startLocation} onChange={handleChange}></input>
+                        </div>
+
+                        <div className='p-2'>
+                            <label>End Location </label>
+                            <input type="text" className="form-control" name='endLocation' value={reservation.endLocation} onChange={handleChange} ></input>
+                        </div>
+
+                        <button type='submit'>Submit</button>
+                    </form>
+                </div>
+                <div className='col-sm-3'></div>
+            </div>
+            
         </div>
-        <div className="form-group">
-          <label>Start Location:</label>
-          <input
-            className="form-control"
-            name="StartLocation"
-            value={reservation.StartLocation}
-            onChange={handleChange}
-          />
-        </div>
-        <div className="form-group">
-          <label>End Location:</label>
-          <input
-            className="form-control"
-            name="EndLocation"
-            value={reservation.EndLocation}
-            onChange={handleChange}
-          />
-        </div>
-        <button type="submit" className="btn btn-sm btn-primary">Add Reservation</button>
-      </form>
-    </div>
-  );
-};
+    )
+}
 
 export default Create;

@@ -1,75 +1,74 @@
-import React, { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
-import { GET, PUT } from '../service/HTTP.Service';  
-import { useNavigate } from 'react-router-dom';
+import axios from 'axios';
+import React, { useEffect, useState } from 'react'
+import { useNavigate, useParams } from 'react-router-dom';
 
-const Update = () => {
-  const navigate=useNavigate();
-  const { id } = useParams();  
-  const [reservation, setReservation] = useState({
-    Id: id,
-    Name: '',
-    StartLocation: '',
-    EndLocation: '',
-  });
+function Update() {
 
-  useEffect(() => {
-    GET(`/api/reservation/${id}`)
-      .then((response) => setReservation(response))
-      .catch((error) => console.error(error));
-  }, [id]);
+    const {id} = useParams();
+    const nav = useNavigate();
+    const [reservation, setreservation] = useState({
+        id:"",
+        name:"",
+        startLocation:"",
+        endLocation:"",
+    })
 
-  const handleChange = (e) => {
-    setReservation({
-      ...reservation,
-      [e.target.name]: e.target.value,
-    });
-  };
+    useEffect(()=>{
+        axios.get(`http://localhost:5048/api/Reservation/${id}`).then((res)=>{
+            setreservation({...reservation, ...res.data});
+        }).catch((error)=>{});
+    },[])
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    PUT('api/reservation', reservation)
-      .then(() => {
-        navigate('/')
-      })
-      .catch((error) => console.error(error));
-  };
+    const handleChange =(event)=> {
+        const {name, type, value} = event.target;
+        setreservation({...reservation, [name]:value});
+    }
 
-  return (
-    <div>
-      <h2>Update Reservation</h2>
-      <form onSubmit={handleSubmit}>
-        <div className="form-group">
-          <label>Name:</label>
-          <input
-            className="form-control"
-            name="Name"
-            value={reservation.Name}
-            onChange={handleChange}
-          />
+    const submitEdit = (event) => {
+        event.preventDefault();
+        axios.put(`http://localhost:5048/api/Reservation/${id}`,reservation).then(()=>{
+            window.alert("Edit Successfull");
+        }).catch((error)=>{});
+        nav("/");
+
+    }
+
+    return (
+        <div>
+            <h2>This is ProductEditComp</h2>
+
+            <div className='row'>
+                <div className='col-sm-3'></div>
+                <div className='col-sm-6'>
+                    <form onSubmit={submitEdit}>
+                        <div className='p-2'>
+                            <label>Id </label>
+                            <input type="text" className="form-control" name='id' value={reservation.id} onChange={handleChange}></input>
+                        </div>
+
+                        <div className='p-2'>
+                            <label>Name  </label>
+                            <input type="text" className="form-control" name="name" value={reservation.name} onChange={handleChange}></input>
+                        </div>
+
+                        <div className='p-2'>
+                            <label>Start Location </label>
+                            <input type="text" className="form-control" name='startLocation' value={reservation.startLocation} onChange={handleChange}></input>
+                        </div>
+
+                        <div className='p-2'>
+                            <label>End Location </label>
+                            <input type="text" className="form-control" name='endLocation' value={reservation.endLocation} onChange={handleChange} ></input>
+                        </div>
+
+                        <button type='submit'>Submit</button>
+                    </form>
+                </div>
+                <div className='col-sm-3'></div>
+            </div>
+
         </div>
-        <div className="form-group">
-          <label>Start Location:</label>
-          <input
-            className="form-control"
-            name="StartLocation"
-            value={reservation.StartLocation}
-            onChange={handleChange}
-          />
-        </div>
-        <div className="form-group">
-          <label>End Location:</label>
-          <input
-            className="form-control"
-            name="EndLocation"
-            value={reservation.EndLocation}
-            onChange={handleChange}
-          />
-        </div>
-        <button type="submit" className="btn btn-sm btn-primary">Update Reservation</button>
-      </form>
-    </div>
-  );
-};
+    )
+}
 
 export default Update;
